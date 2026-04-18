@@ -69,7 +69,7 @@ Three IAM roles were created to enable secure service interaction:
 * Glue-S3-Crawler-Role
 * EC2-Athena-Dashboard-Role
 
-📸
+
 ![IAM Roles](screenshots/iam_roles.png)
 
 ---
@@ -83,7 +83,7 @@ The Lambda function performs:
 * Converts data types (e.g., Amount → numeric)
 * Writes processed data to `processed/`
 
-📸
+
 ![Lambda Function](screenshots/lambda_function.png)
 
 ---
@@ -96,7 +96,7 @@ Configured S3 trigger:
 * Prefix: `raw/`
 * Suffix: `.csv`
 
-📸
+
 ![Lambda Trigger](screenshots/lambda_trigger.png)
 
 ---
@@ -105,7 +105,7 @@ Configured S3 trigger:
 
 Verified that transformed data is successfully stored in `processed/`.
 
-📸
+
 ![Processed Data](screenshots/processed_data.png)
 
 ---
@@ -115,7 +115,7 @@ Verified that transformed data is successfully stored in `processed/`.
 * Crawled processed data
 * Created table in Glue Data Catalog (`orders_db`)
 
-📸
+
 ![Glue Crawler](screenshots/glue_crawler.png)
 
 ---
@@ -132,7 +132,7 @@ Executed analytical queries:
 
 Results are stored in `enriched/`.
 
-📸
+
 ![Athena Output](screenshots/athena_output.png)
 
 ---
@@ -143,7 +143,7 @@ Results are stored in `enriched/`.
 * Triggered Athena queries
 * Displayed results via web interface
 
-📸
+
 ![Web Dashboard](screenshots/webpage.png)
 
 ---
