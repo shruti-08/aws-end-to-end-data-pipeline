@@ -26,7 +26,7 @@ S3 (raw data) → Lambda (processing) → S3 (processed) → Glue (crawler) → 
 
 ##  Project Structure
 
-
+```text
 aws-end-to-end-data-pipeline/
 │
 ├── lambda/
@@ -46,6 +46,7 @@ aws-end-to-end-data-pipeline/
 │   └── 8_webpage.png
 │
 └── README.md
+```
 
 ---
 
